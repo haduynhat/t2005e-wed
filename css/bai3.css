@@ -1,0 +1,41 @@
+div{
+    float: left;
+   /* float: right;*/
+    width: calc(100% / 3) ;
+    /*width: 33.33%;*/
+   /* height: 500px;*/
+   /* border: 5px solid red;/*tuong lien*/
+   /* dashed: net dut*/
+   /* dotted: duong ....*/
+   /* border-bottom:5px solid red ;/*vien duoi*/
+    /*border-top: 5px solid red;/*vien tren*/
+   /* border-right: 5px solid red;/*vien phai*/
+   /* border-left: 5px solid red;/*vien trai*/
+    padding: 20px 15px ;/*khoang cach giua noi dung va duong vien*/
+    /*padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 5px;*/
+   /* margin: 20px;/*khoang cach giua duong vien va duong vien tiep theo*/
+    box-sizing: border-box;
+    height: 300px;
+    background-color: aqua;
+    overflow: scroll;/*co thanh cuon hai ben*/ /*hidden: xoa bo phan con thua*/
+}
+div > div{
+    border: 1px solid red;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+    max-height: 100%;
+    max-width: 100%;/*do rong va do cao toi da.nguoc lai thi la min*/
+}
+div img{
+    display: block;/*none: an di*/
+    /*opacity: 0.2; lam mo phan tu*/
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}

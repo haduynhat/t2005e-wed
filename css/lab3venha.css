@@ -1,0 +1,53 @@
+h1{
+    padding-top: 50px;
+    padding-left: 400px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+h3{
+    padding-top: -10px;
+    padding-left: 400px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#wrapper{
+    width: 1000px;
+    margin:auto;
+    margin-right: 100px;
+}
+#khoi1{
+    width: 800px;
+    height: 200px;
+    background-color: lightslategray;
+    float: left;
+}
+#khoi3{
+    width: 200px;
+    height:1080px;
+    background-color: gainsboro;
+    float: left;
+    margin-top: -1080px;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-bottom:500px;
+}
+#khoi2 {
+    width: 800px;
+    height: 950px;
+    background-color: #eeeeee;
+    float: left;
+}
+div > img{
+    width: 200px;
+    height: 220px;
+}
+h2{
+    padding: 10px;
+}
+div > div > div{
+    padding-top: 10px;
+    padding-left: 130px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}

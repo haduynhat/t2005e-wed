@@ -1,0 +1,15 @@
+div {
+    max-margin-top: 135px;
+    float: left;
+    width: 300px;
+    padding: 2px; /*khoang cach giua noi dung va duong vien*/
+     /*khoang cach giua duong vien va duong vien tiep theo*/
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+div{
+    margin-left: 200px;
+    box-sizing: border-box;
+}
+
+

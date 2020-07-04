@@ -1,17 +1,4 @@
-h1{
-    color: red;
-}
-p{
-    color: green;
-    font-size: 50px;
-    line-height:30px;
-    text-align: center;
-    font-family: Arial;
-    font-weight: 400;/*100 200 300 400(normal) 500 600 700(bold)800 900*/
-    text-decoration: underline;
-    text-indent: 20px;
-    word-spacing: 2px;
-    text-transform: uppercase;
-
-
+div{
+    float: left;
+    float: right;
 }
