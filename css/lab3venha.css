@@ -32,6 +32,10 @@ h3{
     margin-left: 50px;
     margin-bottom:500px;
 }
+#khoi3 hr{
+    border: 1px solid;
+    margin-top: 25px;
+}
 #khoi2 {
     width: 800px;
     height: 950px;
@@ -45,7 +49,7 @@ div > img{
 h2{
     padding: 10px;
 }
-div > div > div{
+div > div > div {
     padding-top: 10px;
     padding-left: 130px;
     padding-right: 10px;

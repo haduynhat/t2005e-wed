@@ -1,0 +1,17 @@
+#top h1{
+   /* lenh chinh sua trong nay*/
+}
+#khoi1 #avatar{
+    border-radius: 100%;/*hinh tron*/
+    overflow: hidden;/*xoa bo phan thua*/
+}
+#left h3{
+    font-size: 28px;/*phong chu*/
+    text-transform: uppercase;/*viet hoa toan bo h3*/
+    font-weight: 400;/*do dam nhat*/
+    margin: 8px 0;/*chu cach chu top:8px,cach left,riget:0px*/
+    /*them the <hr/> vao duoi moi dong*/;
+}
+#left hr,#right hr/*giong nhau ve lenh ben duoi*/{
+    border: 1px solid;
+}
