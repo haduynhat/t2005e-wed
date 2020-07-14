@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab7</title>
+    <link rel="stylesheet" href="../css/lab7.css"/>
+    <link rel="stylesheet" href="../font-awesome/css/all.css"/>
+</head>
+<body>
+<div id="khoitoanbo">
+    <div class="khoibenphai">
+        <div class="bpdautien">
+            <h4>Cart</h4>
+            <a href="#"><p>IPHONE</p></a>
+            <a href="#"><p>SAMSUNG</p></a>
+            <a href="#"><p>OPPO</p></a>
+            <a href="#"><p>HUAWEL</p></a>
+        </div>
+        <div class="bptt">
+            <i class="fa fa-shopping-cart" aria-hidden="true">4</i>
+            <p>$5000</p>
+            <p>$2000</p>
+            <p>$1000</p>
+            <p>$500</p>
+        </div>
+        <hr/>
+        <div class="cc">
+            <p>Total</p>
+        </div>
+        <div class="cctt">
+            <p>$8500</p>
+        </div>
+    </div>
+        <div id="khoi1">
+            <h1>Responsive Checkout Form</h1>
+        </div>
+        <div id="khoi2">
+            <div class="bentrai">
+                <div class="hieuancut">
+                    <div class="h2"><h2>Billing Address</h2></div>
+                    <div class="logo">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                        <p>Full Name</p>
+                    </div><br/>
+                    <form method="post" action="#">
+                        <div class="input-group">
+                            <input id="fullname" class="input-text" type="text" name="fullname" placeholder="   Full Name" required/><br/><br/>
+                        </div>
+                    </form>
+                    <div class="logo">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p>Email</p>
+                    </div><br/>
+                    <form method="post" action="#">
+                        <div class="input-group">
+                            <input id="email" class="input-text" type="text" name="fullname" placeholder="   hieuancc@gmail.com" required/><br/><br/>
+                        </div>
+                    </form>
+                    <div class="logo">
+                        <i class="fa fa-user-circle" aria-hidden="true"></i>
+                        <p>Address</p>
+                    </div><br/>
+                    <form method="post" action="#">
+                        <div class="input-group">
+                            <input id="diachi" class="input-text" type="text" name="diachi" placeholder="   so 8 ton that thuyet - mi dinh - ha noi" required/><br/><br/>
+                        </div>
+                    </form>
+                    <div class="logo">
+                        <i class="fa fa-university" aria-hidden="true"></i>
+                        <p>City</p>
+                    </div><br/>
+                    <form  method="post" action="#">
+                        <div class="input-group">
+                            <input id="city" class="input-text" type="text" name="city" placeholder="   Ha Noi" required/><br/><br/>
+                        </div>
+                    </form>
+                    <div class="khoi">
+                        <div class="flvv">
+                            <p>Stale</p>
+                            <form  method="post" action="#">
+                                <div class="input-group">
+                                    <input id="stale" class="input-text" type="text" name="stale" placeholder="   NY" required/><br/><br/>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="flvvtt">
+                            <p>Zip</p>
+                            <form  method="post" action="#">
+                                <div class="input-group">
+                                    <input id="zip" class="input-text" type="text" name="zip" placeholder="   10001" required/><br/><br/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <label><input type="checkbox" name="rules"/>  Shipping address same as billing.</label>
+                    <div class="input-group">
+                        <button type="submit">Continue to checkout</button>
+                    </div>
+                </div>
+            </div>
+            <div class="benphai">
+                <div class="bptcung">
+                    <h2>Payment</h2>
+                    <p>Accepted Cards</p>
+                </div>
+                <div class="anh">
+                    <img src="../abc/Techcombank.jpg"/>
+                    <img src="../abc/hd%20bank.jpg"/>
+                    <img src="../abc/msb.jpg"/>
+                    <img src="../abc/vietin%20bank.png">
+                </div>
+                <div class="nhapkhoi">
+                    <p>Name on Card</p>
+                    <form  method="post" action="#">
+                        <div class="input-group">
+                            <input id="namecard" class="input-text" type="text" name="namecard" placeholder="   Ha Duy Nhat" required/><br/><br/>
+                        </div>
+                    </form>
+                    <p>Credit Card Number</p>
+                    <form  method="post" action="#">
+                        <div class="input-group">
+                            <input id="cardnumber" class="input-text" type="text" name="cardnumber" placeholder="   1111-2222-3333-4444" required/><br/><br/>
+                        </div>
+                    </form>
+                    <p>Exp Month</p>
+                    <form  method="post" action="#">
+                        <div class="input-group">
+                            <input id="month" class="input-text" type="text" name="month" placeholder="   september" required/><br/><br/>
+                        </div>
+                    </form>
+                    <div class="fllbd">
+                        <p>Exp Year</p>
+                        <form  method="post" action="#">
+                            <div class="input-group">
+                                <input id="year" class="input-text" type="text" name="year" placeholder="   2020" required/><br/><br/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="fllbdtd">
+                        <p>CCV</p>
+                        <form  method="post" action="#">
+                            <div class="input-group">
+                                <input id="ccv" class="input-text" type="text" name="ccv" placeholder="   352" required/><br/><br/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #343132;
+    background-color: #f2f2f2;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*header*/
+.header{
+    padding: 25px 0;
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 60px;
+
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.logo a{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #343132;
+    font-weight: 700;
+}
+.menu{
+    float: right;
+    margin-top: 12px;
+}
+.menu li{
+    float: left;
+    margin-left: 35px;
+}
+.menu li:first-child{
+    list-style: none;/*vi tri dau*/
+}
+.menu li:last-child{
+    /*vi tri cuoi*/
+}
+.menu li:nth-child(odd){
+    /*vi tri le*/
+}
+.menu li:nth-child(even){
+    /*vi tri chan*/
+}
+.menu li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #c6c8c2;
+    transition: all 150ms;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    color: #343132;
+}
+.content{
+    float: left;
+    width: 66.67%;
+    padding-right: 15px;
+}
+.sidebar{
+    float: right;
+    width: 33.33%;
+    padding-left: 15px;
+}
+.content .tweet{
+    background-image: url("../abc/ngoc trinh.jpg");
+    background-size: 100% auto;
+    float: left;
+    width: 100%;
+}
+.tweet .tweet-content{
+    background-color: #ff253a95;
+    float: left;
+    width: 100%;
+    padding: 30px;
+
+}
+.tweet h2{
+    font-size: 20px;
+    color: white;
+}
+.tweet p{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+.post .khoinext{
+    background-color: #ff253a;
+    padding:30px;
+
+}
+
+article{
+    margin-top: 30px;
+}

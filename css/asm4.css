@@ -1,0 +1,39 @@
+#khoilon {
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+#khoi1,#khoi2,#khoi3,#khoi4,#khoi5{
+    float:left;
+    width: 900px;
+    height: 100px;
+    margin:5px;
+}
+
+
+#khoi1{
+    background-color: black;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+#khoi2{
+    background-color: red;
+    margin-left: 50px;
+}
+#khoi3{
+    background-color: deeppink;
+    margin-left: 50px;
+}
+#khoi4{
+    background-color: cadetblue;
+    margin-left: 50px;
+}
+#khoi5{
+    background-color: blue;
+    margin-left: 50px;
+}
+#khoilon h2{
+    margin-left: 30px;
+
+}

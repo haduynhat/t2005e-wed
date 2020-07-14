@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#khoitoanbo{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+#khoi1{
+    width: 100%;
+    height: 100px;
+}
+#khoi1 h1{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#khoi2{
+    width: 1000px;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #eeeeee;
+    margin-right: 20px;
+}
+#khoi2 .bentrai{
+    width: 470px;
+    height: 600px;
+    background-color: #eeeeee;
+    float: left;
+}
+#khoi2 .bentrai .hieuancut{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#khoi2 .bentrai .h2{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+#khoi2 .bentrai .logo i{
+    float: left;
+}
+#khoi2 .bentrai .logo p{
+    float: left;
+    font-weight: 700;
+}#khoi2 .bentrai .input-group{
+    margin-top: 10px;
+ }
+#khoi2 .bentrai .input-group input{
+    width: 100%;
+    height: 40px;
+}
+#khoi2 .bentrai .hieuancut .khoi .flvv .input-group input,#khoi2 .bentrai .hieuancut .khoi .flvvtt .input-group input{
+    width: 200px;
+    height: 40px;
+}
+#khoi2 .bentrai .hieuancut .khoi .flvv p,#khoi2 .bentrai .hieuancut .khoi .flvvtt p{
+    font-weight: 700;
+}
+#khoi2 .bentrai .hieuancut .khoi .flvv{
+    margin-left: 1px;
+    float: left;
+}
+#khoi2 .bentrai .hieuancut .khoi .flvvtt{
+    float: left;
+    padding-left: 30px;
+}
+#khoi2 .benphai{
+    width:470px;
+    height: 100%;
+    float: left;
+    margin-left: 25px;
+}
+#khoi2 .benphai .anh img{
+    width: 50px;
+    height: 35px;
+}
+#khoi2 .benphai .bptcung h2{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+#khoi2 .benphai .bptcung p{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+#khoi2 .benphai .nhapkhoi .input-group input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+#khoi2 .benphai .nhapkhoi {
+    margin-top: 17px;
+}
+#khoi2 .benphai .nhapkhoi p{
+    font-weight: 700;
+}
+#khoi2 .benphai .nhapkhoi .fllbd{
+    float: left;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+#khoi2 .benphai .nhapkhoi .fllbdtd{
+    float: left;
+    padding-left: 25px;
+    margin-top: 2px;
+}
+#khoi2 .bentrai .hieuancut .input-group button{
+    width: 950px;
+    height: 60px;
+    background-color: lightgreen;
+    font-weight: 700;
+    font-size: 17px;
+}
+#khoitoanbo .khoibenphai{
+    float: right;
+    width: 280px;
+    height: 300px;
+    background-color: #eeeeee;
+    margin-right: 20px;
+    margin-top: 110px;
+    margin-left: 15px;
+}
+#khoitoanbo .khoibenphai p{
+    font-size: 18px;
+    /*padding-left: 10px;*/
+    margin-top: 20px;
+}
+#khoitoanbo .khoibenphai .bpdautien{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#khoitoanbo .khoibenphai .bptt{
+    float: right;
+    margin-top: -180px;
+    margin-right: 20px;
+}
+#khoitoanbo .khoibenphai hr{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#khoitoanbo .khoibenphai .cc{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#khoitoanbo .khoibenphai .cctt{
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+input[type=text],input[type=email]{
+
+}
+input[name=password]{
+
+}
+
