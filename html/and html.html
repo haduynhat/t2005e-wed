@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>and html</title>
+</head>
+<body>
+<h1 id="title"><i>Day la tieu de bai bao</i></h1>
+    <p id="content">Sắp tới team mình sẽ tổ chức giải đấu 4-4 với sự dẫn dắt của 8 đội trưởng gồm ( 6 streamer của
+        TG và 2 thành viên bí ẩn top thách đấu ) và mình là 1 trong số đó . TG Winstreak Đồ Đẹp cần tìm ra 3 người
+        đồng hành có thể cùng mình trải qua gian khó để giành lấy ngôi vị số 1 . Vì dạo này khó khăn, áo không có
+        mà mặc, cơm còn ko có mà ăn, cứ mỳ tôm húp qua ngày nên mọi người hãy giúp mình nhé !!!
+        Cảm ơn mọi người đã ủng hộ mình trong thời gian qua và tiếp tục trong thời gian tới nhé !
+    </p>
+    <script type="text/javascript">
+        var sv = {
+            ten: "Nguyen van an",
+            mssv : 18343,
+            tel : "0911311113",
+            address: "so 8 ton that thuyet",
+            bangai:{
+                ten: "le thi na",
+                tel: "0921393213",
+                diachi : "106 hoang quoc viet",
+                vetinh:[
+                    {
+                        ten: "dong thanh nguyen",
+                        tel: "834954",
+                        loaixe : "ba gac",
+                        muaqua:function () {
+                            console.log("mua qua")
+                        },
+                    }
+                 ],
+                nhantin:function () {
+                    console.log("nhan tin cho nguoi nao do");
+                },
+                trangdiem:function () {
+                    console.log("trang diem 45p");
+                }
+
+            },
+
+            ghen: function () {
+                console.log(this.ten+" dang ghen voi "+this.bangai.ten);
+            }
+        }
+
+//tao cac doi tuong trong DOM element
+        var h = document.getElementById("title");
+        //console.log(h);
+        console.log(h.innerText);
+//get la lay ra, set la dua vao
+       // h.innerText = sv.ten;
+        console.log(h.innerHTML);
+        h.innerHTML = "<b><i><u>"+sv.ten+"</u></i></b>";
+        h.style.color = "red";
+        h.style.fontSize = "50px";
+        h.style.backgroundColor = "green";
+        h.classList.add("t2005e");
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo event</title>
+    <link rel="stylesheet" href="../css/demo%20event.css"/>
+</head>
+<body>
+    <button type="button" onclick="ok()">ok</button>
+    <div id="box" ondblclick="dbc(this)" class="box" onmouseenter="green(this)" onmouseleave="pink(this)"></div>
+    <div id="box2" ondblclick="dbc(this)" class="box" onmouseenter="green(this)" onmouseleave="pink(this)"></div>
+    <p oncoppy="abc()" oncut="abc();" onpaste="abc()">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt
+
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo consequat. Duis aute irure dolor in reprehend in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+        , sunt in culpa qui officia deserunt</p>
+    <input type="text" name="demo" onkeydown="showKeyDow()"/>
+<script type="text/javascript">
+    function ok() {
+        alert("hello world");
+    }
+    function green(e) {
+        e.style.backgroundColor = "green";
+    }
+    function pink(e) {
+        e.style.backgroundColor = "deeppink";
+    }
+    function dbc(e) {
+        e.style.backgroundColor = "red";
+    }
+    function abc() {
+        alert("Vi phạm bản quyền...");
+    }
+</script>
+<script type="text/javascript">
+    function showKeyDow(e) {
+        var v = e.value;
+        console.log(v);
+    }
+    function showKeyUp(e) {
+        var v = e.value;
+        var kc = event.keyCode;
+        console.log(kc);
+        if (kc == 13){
+            console.log(v);
+        }
+        console.log(v);
+    }
+</script>
+</body>
+</html>

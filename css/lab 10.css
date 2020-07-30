@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#tolon{
+    margin: auto;
+    width: 1000px;
+    height: 200px;
+    background-color: rosybrown;
+}
+#tolon .brick1{
+    background-color: #f9e4d3;
+    width: 16%;
+    height: 50%;
+    float: left;
+    padding-right: 3px;
+}
+#tolon .brick1 a .anh img,#tolon .brick2 a .anh img{
+    margin-left: 50px;
+}
+#tolon .brick1 a .chu p,#tolon .brick2 a .chu p{
+    margin-left: 60px;
+    text-decoration: none;
+}
+#tolon .brick2{
+    float: left;
+    background-color: black;
+    width: 16%;
+    height: 50%;
+    padding-right: 3px;
+}

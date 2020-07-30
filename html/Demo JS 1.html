@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Js</title>
+</head>
+<body>
+    <script type="text/ecmascript">
+        /*day la comment code*/
+        /*cach 1 nhung thang code js vao day*/
+      // var v = confirm("ban co chac chan muon di tiep?");
+      // console.log(v);
+        /*var r = Math.random()*100;
+        r = parseInt(r);
+        do{
+            var p = prompt("nhap vao con so may man trong khaong 0-99 cua ban:");
+            console.log(parseInt(p));
+            p = parseInt(p);
+        }while (isNaN(p) || p>100 || p<0);
+            if(p==r){
+                alert("chuc mung ban da trung ve so doc dac 1000 ty");
+            }else{
+                alert("chuc ban may man lan sau");
+            }*/
+           /* setTimeout(function () {
+                var r = Math.random()*100;
+                r = parseInt(r);
+                do{
+                    var p = prompt("nhap vao con so may man trong khaong 0-99 cua ban:");
+                    console.log(parseInt(p));
+                    p = parseInt(p);
+                }while (isNaN(p) || p>100 || p<0);
+                if(p==r){
+                    alert("chuc mung ban da trung ve so doc dac 1000 ty");
+                }else{
+                    alert("chuc ban may man lan sau");
+                }
+            },3000);*/
+        var stv = setInterval(function () {
+             var r1 = parseInt(Math.random()*6+1);
+             var r2 = parseInt(Math.random()*6+1);
+             var r3 = parseInt(Math.random()*6+1);
+
+           do{
+                 var tx = prompt("Vui long chon: 1 - tai  0 - xiu:");
+                 tx = parseInt(tx);
+             }while (isNaN(tx) || tx>1 || tx<0);
+
+             if((r1+r2+r3)>9 && tx == 1){
+                 alert("trung giai");
+                 clearInterval(stv);
+            }else if((r1+r2+r3)<10 && tx ==0){
+                 alert("trung giai");
+                 clearInterval(stv);
+             }else{
+                 alert("lien he ngan hang de duoc ho tro choi tiep");
+             }
+         },3000);
+        /*ccah 2 dung file ngoai vi(mau o duoi)*/
+    </script>
+    <script type="application/javascript" src="../js/Demo-js-1.js"></script>
+</body>
+</html>

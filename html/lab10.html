@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab 10</title>
+    <link rel="stylesheet" href="../css/lab%2010.css "/>
+</head>
+<body>
+    <div id="tolon">
+        <div class="brick1" id="cats">
+            <a href="https://fptshop.com.vn/dien-thoai">
+            <div class="anh">
+                <img src="../abc/dien-thoai.png"/>
+            </div>
+            <div class="chu">
+                <p>dien thoai</p>
+            </div>
+            </a>
+        </div>
+        <div class="brick2">
+            <a href="https://fptshop.com.vn/may-tinh-xach-tay">
+                <div class="anh">
+                    <img src="../abc/laptop.png"/>
+                </div>
+                <div class="chu">
+                    <p>laptop</p>
+                </div>
+            </a>
+        </div>
+    </div>
+        <script type="text/javascript">
+            var cats = [
+                {
+                    name : "dien thoai",
+                    image: "abc/hd bank.jpg",
+                    link : "dien thoai.html"
+                },
+                {
+                    name : "laptop",
+                    image: "abc/hd bank.jpg",
+                    link : "laptop.html"
+                },
+                {
+                    name : "apple",
+                    image: "abc/hd bank.jpg",
+                    link : "apple.html"
+                },
+                {
+                    name : "may tinh bang",
+                    image: "abc/hd bank.jpg",
+                    link : "maytinhbang.html"
+                },
+                {
+                    name : "dong ho thong minh",
+                    image: "abc/hd bank.jpg",
+                    link : "donghothongminh.html"
+                },
+                {
+                    name : "op lung",
+                    image: "abc/hd bank.jpg",
+                    link : "oplung.html"
+                },
+                {
+                    name : "tai nghe",
+                    image: "abc/hd bank.jpg",
+                    link : "thenho.html"
+                },
+                {
+                    name : "loa nghe nhac",
+                    image: "abc/hd bank.jpg",
+                    link : "loanghenhac.html"
+                },
+                {
+                    name : "sac cap",
+                    image: "abc/hd bank.jpg",
+                    link : "capsac.html"
+                },
+                {
+                    name : "may tinh de ban",
+                    image: "abc/hd bank.jpg",
+                    link : "maytinhdeban.html"
+                },
+                {
+                    name : "may in",
+                    image: "abc/hd bank.jpg",
+                    link : "mayin.html"
+                },
+            ];
+            cats.map(function (c) {
+                var a_html = "<a href=\"https://fptshop.com.vn/may-tinh-xach-tay\">\n" +
+                    "                <div class=\"anh\">\n" +
+                    "                    <img src=\""+c.image+"\"/>\n" +
+                    "                </div>\n" +
+                    "                <div class=\"chu\">\n" +
+                    "                    <p>"+c.name
+                    +"</p>\n" +
+                    "                </div>\n" +
+                    "            </a>";
+                document.getElementById("cats").innerHTML += a_html;
+            });
+
+        </script>
+</body>
+</html>

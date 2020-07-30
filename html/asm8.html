@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>asm8</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var randomNumber = [];
+        do{
+            var r = parseInt(Math.random()*100);
+            if (!randomNumber.includes(r,0)){
+                randomNumber.push(r);
+                console.log(r)
+            }
+        }while (randomNumber.length<5)
+        var chooseNumber = [];
+        do{
+            var c = prompt("chon so may man thu"+(chooseNumber.length+1));
+            c= parseInt(c);
+            if (!chooseNumber.includes(c,0) && !isNaN(c) &&  c>=0 && c<100){
+                chooseNumber.push(c);
+            }
+        }while (chooseNumber.length<5);
+        var count = 0;
+        chooseNumber.map(function (n) {
+            if (randomNumber.includes(n,0)){
+                count++;
+            }
+        });
+        if (count>=5){
+            alert("ban da trung giai 100ty");
+        }else if (count>=4){
+            alert("ban da trung giai 30tr");
+        }else if (count>=3){
+            alert("ban da trung giai 3tr");
+        }else{
+            alert("chuc ban may man lan sau")
+        }
+
+    </script>
+</body>
+</html>
