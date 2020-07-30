@@ -17,7 +17,7 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript">
     $.ajax({
-        url:"http://api.openweathermap.org/data/2.5/forecast",
+        url:"https://api.openweathermap.org/data/2.5/forecast",
         method:"GET",
         data:{
             q:"Hanoi,vietnam",
@@ -36,7 +36,7 @@
                     "                        <p class=\"time\">"+e.dt_txt+"</p>\n" +
                     "                        <h2 class=\"cen\"><span>"+e.main.temp+"</span><sup>o</sup>C</h2>\n" +
                     "                        <p class=\"desc\">"+x+"</p>\n" +
-                    "                        <img class=\"img\" src=\"http://openweathermap.org/img/wn/"+e.weather[0].icon+"@2x.png\"/>\n" +
+                    "                        <img class=\"img\" src=\"https://openweathermap.org/img/wn/"+e.weather[0].icon+"@2x.png\"/>\n" +
                     "                    </div>\n" +
                     "                </div>";
                 $("#weather").append(box);
